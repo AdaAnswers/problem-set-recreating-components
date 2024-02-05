@@ -9,9 +9,13 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <NavigationBar />
-      <SearchBar />
-      <LoginControls />
+      <div className="top-bar">
+        <NavigationBar />
+        <div className="site-tools">
+          <SearchBar />
+          <LoginControls />
+        </div>
+      </div>
       <HeroSection />
       <NewsletterForm />
       <StatsBar />

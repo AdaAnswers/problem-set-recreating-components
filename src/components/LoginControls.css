@@ -1,0 +1,16 @@
+.LoginControls {
+  display: flex;
+  padding-left: 0.5em;
+  justify-content: space-between;
+}
+
+.LoginControls > li {
+  list-style-type: none;
+  padding: 0.5em;
+  margin-right: 0.5em;
+}
+
+.LoginControls > li:last-child {
+  border: solid 1px white;
+  border-radius: 0.5em;
+}

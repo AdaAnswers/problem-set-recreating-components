@@ -1,0 +1,10 @@
+.NavigationBar > ul {
+  display: flex;
+  padding: 0px;
+  justify-content: space-between;
+}
+
+.NavigationBar li {
+  list-style-type: none;
+  padding-right: 1em;
+}

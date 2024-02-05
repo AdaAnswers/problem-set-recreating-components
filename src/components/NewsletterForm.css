@@ -1,0 +1,18 @@
+.NewsletterForm {
+  padding: 0.5em 0em;
+  display: flex;
+}
+
+.NewsletterForm [type="text"]{
+  width:20em;
+}
+
+.NewsletterForm [type="submit"]{
+  margin: 0em 0.5em;
+  padding: 0.75em;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.5em;
+  background-color: rgb(22, 170, 22);
+}

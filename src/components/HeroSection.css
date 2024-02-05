@@ -1,0 +1,11 @@
+.HeroSection {
+  width: 35em;
+}
+
+.HeroSection h2 {
+  font-size: 4em;
+}
+
+.HeroSection h3 {
+  margin: 0em;
+}
