@@ -1,0 +1,36 @@
+.App {
+  padding-left: 2em;
+  color: white;
+  min-height: 100vh;
+  display: grid;
+  grid-template:
+    "nav" auto
+    "hero" auto
+    "newsletter" auto
+    "." minmax(4em, 1fr)
+    "stats" auto / minmax(850px, 1fr);
+}
+
+.App a {
+  text-decoration: none;
+  color: white;
+}
+ 
+.App a:hover {
+  text-decoration: underline;
+}
+ 
+.App > .top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.App .site-tools {
+  display: flex;
+  align-items: center;
+}
+
+.App .StatsBar {
+  grid-area: stats;
+}
